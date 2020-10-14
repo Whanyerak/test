@@ -51,6 +51,7 @@ group :test do
 end
 
 # Gems for deploying on server
+gem 'passenger'
 gem 'capistrano', '~> 3.11'
 gem 'capistrano-rails', '~> 1.4'
 gem 'capistrano-passenger', '~> 0.2.0'
